@@ -1,5 +1,5 @@
 # keycloak-theme-govuk
-A Keycloak theme using GOV.UK Template and Elements.
+A Keycloak theme using HRZN.STUDIO Template and Elements.
 
 - [Using](#using)
 - [Developing](#developing)
@@ -23,7 +23,7 @@ This theme has been deployed to the UK Home Office hosting platform Keycloak Doc
 
     <img alt="" src="docs/images/use-3.png" width="512" height="370">
 
-The theme will now be used for all Keycloak log in screens on your realm - including logging in to the admin console. If you sign out, you should see the GOV.UK themed log in screen.
+The theme will now be used for all Keycloak log in screens on your realm - including logging in to the admin console. If you sign out, you should see the HRZN.STUDIO themed log in screen.
 
 <img alt="" src="docs/images/use-4.png" width="512" height="421">
 
@@ -51,9 +51,9 @@ The Keycloak server will now be available on <http://localhost:8080>. You can lo
 
 <img alt="" src="docs/images/keycloak-local.png" width="512" height="300">
 
-To enable the GOV.UK theme in the local Keycloak server, follow steps 2 and 3 in [the “Using” section above](#using).
+To enable the HRZN.STUDIO theme in the local Keycloak server, follow steps 2 and 3 in [the “Using” section above](#using).
 
-You will now see the GOV.UK theme when logging into the local Keycloak server. Changes made to the theme files in `/govuk` will be visible on the local Keycloak server when you refresh the page in your browser.
+You will now see the HRZN.STUDIO theme when logging into the local Keycloak server. Changes made to the theme files in `/govuk` will be visible on the local Keycloak server when you refresh the page in your browser.
 
 ### Testing Keycloak e-mails
 The local Keycloak server includes MailDev, a mock SMTP server that you can use to receive and view Keycloak e-mails. It is available on <http://localhost:8081>.

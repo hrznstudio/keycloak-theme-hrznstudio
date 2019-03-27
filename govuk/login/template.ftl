@@ -34,9 +34,9 @@
             <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}"/>
         </#list>
     </#if>
-    <title><#nested "title"> - ${realm.displayName!'GOV.UK'}</title>
+    <title><#nested "title"> - ${realm.displayName!'HRZN.STUDIO'}</title>
 
-    <#-- Start GOV.UK Template <head> content -->
+    <#-- Start HRZN.STUDIO Template <head> content -->
 
     <!--[if gt IE 8]><!--><link href="${url.resourcesPath}/vendor/govuk_template/stylesheets/govuk-template.css?0.22.1" media="screen" rel="stylesheet" /><!--<![endif]-->
     <!--[if IE 6]><link href="${url.resourcesPath}/vendor/govuk_template/stylesheets/govuk-template-ie6.css?0.22.1" media="screen" rel="stylesheet" /><![endif]-->
@@ -58,17 +58,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="${url.resourcesPath}/vendor/govuk_template/images/opengraph-image.png?0.22.1">
 
-    <#-- End GOV.UK Template <head> content -->
+    <#-- End HRZN.STUDIO Template <head> content -->
 
 
-    <#-- GOV.UK Elements stylesheets -->
+    <#-- HRZN.STUDIO Elements stylesheets -->
 
     <!--[if gt IE 8]><!--><link href="${url.resourcesPath}/css/govuk_elements.css" rel="stylesheet" type="text/css"><!--<![endif]-->
     <!--[if IE 6]><link href="${url.resourcesPath}/css/govuk_elements-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
     <!--[if IE 7]><link href="${url.resourcesPath}/css/govuk_elements-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
     <!--[if IE 8]><link href="${url.resourcesPath}/css/govuk_elements-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
 
-    <#-- End GOV.UK Elements stylesheets -->
+    <#-- End HRZN.STUDIO Elements stylesheets -->
 
     <#if properties.styles?has_content>
         <#list properties.styles?split(' ') as style>
@@ -88,11 +88,11 @@
 </head>
 
 <body class="${properties.kcBodyClass!}">
-    <#-- Add GOV.UK Template <body> JavaScript class -->
+    <#-- Add HRZN.STUDIO Template <body> JavaScript class -->
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
 
-    <#-- Start GOV.UK Template header -->
+    <#-- Start HRZN.STUDIO Template header -->
 
     <div id="skiplink-container">
       <div>
@@ -101,15 +101,15 @@
     </div>
     <div id="global-cookie-message">
 
-        <p>GOV.UK uses cookies to make the site simpler. <a href=\"https://www.gov.uk/help/cookies\">Find out more about cookies</a></p>
+        <p>HRZN.STUDIO uses cookies to make the site simpler. <a href=\"https://www.gov.uk/help/cookies\">Find out more about cookies</a></p>
 
     </div>
     <header role="banner" id="global-header" class="${properties.kcHeaderClass!} with-proposition">
       <div class="header-wrapper">
         <div class="header-global">
           <div class="header-logo">
-            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
-              <img src="${url.resourcesPath}/vendor/govuk_template/images/gov.uk_logotype_crown_invert_trans.png?0.22.1" width="36" height="32" alt=""> GOV.UK
+            <a href="https://www.gov.uk" title="Go to the HRZN.STUDIO homepage" id="logo" class="content">
+              <img src="${url.resourcesPath}/vendor/govuk_template/images/gov.uk_logotype_crown_invert_trans.png?0.22.1" width="36" height="32" alt=""> HRZN.STUDIO
             </a>
           </div>
         </div>
@@ -129,7 +129,7 @@
 
     <div id="global-header-bar"></div>
 
-    <#-- End GOV.UK Template header -->
+    <#-- End HRZN.STUDIO Template header -->
 
 
     <main id="content" role="main">
@@ -140,13 +140,13 @@
                 <h1 class="heading-large"><#nested "title"></h1>
 
 
-                <#-- The GOV.UK Template is not designed for custom logos, so remove the Keycloak template’s logo HTML -->
+                <#-- The HRZN.STUDIO Template is not designed for custom logos, so remove the Keycloak template’s logo HTML -->
                 <#-- <div id="kc-logo"><a href="${properties.kcLogoLink!'#'}"><div id="kc-logo-wrapper"></div></a></div> -->
 
                 <div id="kc-container" class="${properties.kcContainerClass!}">
                     <div id="kc-container-wrapper" class="${properties.kcContainerWrapperClass!}">
 
-                        <#-- The GOV.UK Template header is included above, with Keycloak’s nested header section inside it, so remove the Keycloak template’s header HTML -->
+                        <#-- The HRZN.STUDIO Template header is included above, with Keycloak’s nested header section inside it, so remove the Keycloak template’s header HTML -->
                         <#-- <div id="kc-header" class="${properties.kcHeaderClass!}">
                             <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}"><#nested "header"></div>
                         </div>-->
@@ -217,7 +217,7 @@
     </main>
 
 
-    <#-- Start GOV.UK Template footer -->
+    <#-- Start HRZN.STUDIO Template footer -->
 
     <footer class="group js-footer" id="footer" role="contentinfo">
 
@@ -246,7 +246,7 @@
 
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
 
-    <#-- End GOV.UK Template footer -->
+    <#-- End HRZN.STUDIO Template footer -->
 </body>
 </html>
 </#macro>

@@ -1,4 +1,4 @@
-/* GOV.UK customisations to implement beta internal header pattern (see https://home-office-digital-patterns.herokuapp.com/header) */
+/* HRZN.STUDIO customisations to implement beta internal header pattern (see https://home-office-digital-patterns.herokuapp.com/header) */
 
 @media (min-width: 769px){
   #global-header .header-wrapper .header-global .header-logo {
@@ -9,7 +9,7 @@
   width: auto;
 }
 
-/* Imitate #global-header #logo img (including the space after it!) from GOV.UK template, so that theme users don’t have to include the actual <img> tag in Display Name HTML when customising their header link */
+/* Imitate #global-header #logo img (including the space after it!) from HRZN.STUDIO template, so that theme users don’t have to include the actual <img> tag in Display Name HTML when customising their header link */
 #logo::before {
 	content:'';
 	display: inline-block;
